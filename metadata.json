@@ -1,0 +1,5 @@
+{
+  "name": "JLPT Master Pro",
+  "description": "A professional JLPT study application covering N1 to N5 with dynamic question generation and reading comprehension tasks.",
+  "requestFramePermissions": []
+}
