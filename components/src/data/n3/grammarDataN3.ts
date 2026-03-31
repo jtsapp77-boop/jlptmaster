@@ -219,10 +219,10 @@ export const grammarDataN3 = [
     {
       index: 1,
       type: "blank",
-      label: "이야기 요약",
-      example_jp: "君の話をまとめると、つまり来週から一週間休み가ほしいというわけだね。",
-      example_kr: "너의 이야기를 정리하면, 결국 다음 주부터 일주일간 휴가를 얻고 싶다는 뜻이구나.",
-      highlight: "わけ다"
+      label: "이야기 요약 (납득)",
+      example_jp: "君の話をまとめると、つまり来週から一週間休みが欲しいというわけだね。",
+      example_kr: "네 이야기를 정리하면, 결국 다음 주부터 일주일간 휴가를 원한다는 뜻이구나.",
+      highlight: "わけだ"
     },
     {
       index: 2,
@@ -236,7 +236,7 @@ export const grammarDataN3 = [
       index: 3,
       type: "order",
       label: "머리색이 멋진 이유",
-      segments: ["彼女は", "美容師だそうだ。", "だから髪の色가", "素敵なわけですね。"],
+      segments: ["彼女は", "美容師だそうだ。", "だから髪の色も", "素敵なわけですね。"],
       answer: 3,
       example_kr: "그녀는 미용사라고 하네요. 그래서 머리색이 항상 멋진 거군요."
     }
@@ -300,8 +300,8 @@ export const grammarDataN3 = [
       index: 2,
       type: "blank",
       label: "독서의 즐거움을 깨달음",
-      example_jp: "この素晴らしい本に出회한 것으로 인해, 책을 읽는 즐거움을 알 수 있었다.",
-      example_kr: "이 멋진 책을 만난 것으로 인해, 책을 읽는 즐거움을 알 수 있었다.",
+      example_jp: "この素晴らしい本に出会ったことによって、読書の楽しさを知ることができた。",
+      example_kr: "이 멋진 책을 만난 덕분에, 독서의 즐거움을 알 수 있었다.",
       highlight: "によって"
     },
     {
@@ -459,7 +459,7 @@ export const grammarDataN3 = [
   ],
   tip: "이미 완료된 변화가 아니라, '지금 이 순간에도 변화하고 있음'을 강조할 때 사용합니다."
 },
-  {
+{
     id: "g-n3-014",
     level: "N3",
     difficulty: 3,
@@ -472,7 +472,7 @@ export const grammarDataN3 = [
         index: 1,
         type: "blank",
         label: "과일의 맛",
-        example_jp: "リンゴやメロンは甘ければ甘いほど美味しいと感じる。",
+        example_jp: "リンゴやメロンは甘ければ甘이ほど美味しいと感じる。",
         example_kr: "사과나 멜론은 달면 달수록 맛있다고 느낀다.",
         highlight: "ければ甘いほど"
       },
@@ -480,9 +480,9 @@ export const grammarDataN3 = [
         index: 2,
         type: "blank",
         label: "고생 끝의 보람",
-        example_jp: "大変であれば大変であるほど、終わった時の達成感은 큰 법이다.",
-        example_kr: " 힘들면 힘들수록, 끝냈을 때의 달성감은 큰 법이다.",
-        highlight: "であれば大変であるほど"
+        example_jp: "大変であればあるほど、終わった時の達成感は大きいものだ。",
+        example_kr: "힘들면 힘들수록, 끝났을 때의 성취감은 큰 법이다.",
+        highlight: "であればあるほど" // 깔끔하게 핵심만!
       },
       {
         index: 3,
@@ -516,15 +516,15 @@ export const grammarDataN3 = [
         index: 2,
         type: "blank",
         label: "시간 경과에 따른 기온",
-        example_jp: "日が落ちるにしたがって、外의 空気도 점점 차가워졌다.",
-        example_kr: "해가 떨어짐에 따라, 바깥 공기도 점점 차가워졌다.",
+        example_jp: "日が落ちるにしたがって、外の空気もだんだん冷たくなってきた。", // 들여쓰기 정렬
+        example_kr: "해가 짐에 따라, 바깥 공기도 점점 차가워졌다.", // 들여쓰기 정렬
         highlight: "にしたがって"
       },
       {
         index: 3,
         type: "order",
         label: "계절의 변화",
-        segments: ["春が近づくに", "したがって、", "庭の桜の花も", "少しずつ咲き始めている。"],
+        segments: ["春가 近づくに", "したがって、", "庭の桜の花も", "少しずつ咲き始めている。"],
         answer: 1,
         example_kr: "봄이 가까워짐에 따라, 마당의 벚꽃도 조금씩 피기 시작하고 있다."
       }
@@ -567,7 +567,7 @@ export const grammarDataN3 = [
     ],
     tip: "주로 상황이 악화되는 맥락에서 사용하며, 변화의 방향이 한쪽으로 치우쳐 있음을 강조합니다."
   },
-  {
+{
     id: "g-n3-017",
     level: "N3",
     difficulty: 3,
@@ -609,7 +609,7 @@ export const grammarDataN3 = [
     difficulty: 3,
     title: "～にとって",
     meaning: "~의 입장에서 생각하면 (가치 판단의 기준)",
-    connection: "명사 + ににとって",
+    connection: "명사 + にとって",
     nuance: "특정한 대상을 기준으로 보았을 때의 평가나 의견, 가치 등을 나타냄.",
     contents: [
       {
@@ -624,15 +624,15 @@ export const grammarDataN3 = [
         index: 2,
         type: "blank",
         label: "인생의 가치",
-        example_jp: "私にとっての最高の贅沢은, 주말에 집에서 느긋하게 책을 읽는 것입니다.",
-        example_kr: "나에게 있어서의 최고의 사치는, 주말에 집에서 느긋하게 책을 읽는 것입니다.",
-        highlight: "にとって의"
+        example_jp: "私にとって最高の贅沢は、週末に家でゆっくり読書をすることです。",
+        example_kr: "저에게 있어 최고의 사치는, 주말에 집에서 느긋하게 책을 읽는 것입니다.",
+        highlight: "にとって"
       },
       {
         index: 3,
         type: "order",
         label: "그의 행복",
-        segments: ["木村さんに", "とっての楽しみは、", "孫의 成長을", "사진으로 보는 것이라고 한다."],
+        segments: ["木村さんに", "とっての楽しみは、", "孫の成長を", "写真で見ることだそうだ。"], // 일본어로 완벽하게 수정됨
         answer: 1,
         example_kr: "기무라 씨에게 있어서의 즐거움은, 손주의 성장을 사진으로 보는 것이라고 한다."
       }
@@ -679,7 +679,7 @@ export const grammarDataN3 = [
     id: "g-n3-020",
     level: "N3",
     difficulty: 3,
-    title: "～ 중심으로",
+    title: "～を中心に",
     meaning: "~을 중심으로 (범위의 핵심)",
     connection: "명사 + を中心に",
     nuance: "어떤 대상이나 지역, 사람을 가장 중요한 핵심으로 삼고 그 주변까지 포함함을 나타냄.",
@@ -696,8 +696,8 @@ export const grammarDataN3 = [
         index: 2,
         type: "blank",
         label: "지역 봉사 활동",
-        example_jp: "この町では、大学生を中心としたボランティア들이 쓰레기 줍기를 하고 있다.",
-        example_kr: "이 마을에서는, 대학생을 중심으로 한 자원봉사자들이 쓰레기 줍기를 하고 있다.",
+        example_jp: "この町では、大学生を中心としたボランティアがごみ拾いをしている。",
+        example_kr: "이 마을에서는, 대학생을 중심으로 한 자원봉사자들이 쓰레기 줍기를 하고 있습니다.",
         highlight: "を中心とした"
       },
       {
@@ -710,5 +710,5 @@ export const grammarDataN3 = [
       }
     ],
     tip: "중점이 되는 대상을 먼저 언급하고 활동이나 현상의 범위를 설명할 때 유용합니다."
-  }
+  },
 ];
