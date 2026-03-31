@@ -22,7 +22,7 @@ export const n3InfoSearch: ReadingQuestion[] = [
         options: ["500円", "400円", "300円", "200円"],
         answer: 1,
         explanation: "화요일 오전은 평일 할인 대상이므로 500엔에서 100엔 할인된 400엔입니다.",
-        evidence: "平日の午前中に利用する場合、大인은 100엔 할인됩니다.",
+        evidence: "平日の午前中に利用する場合、大人は100円引きになります。",
         strategy: "요일, 시간, 연령 조건을 본문과 대조하세요."
       }
     ]
